@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frauchiger-Renner Simulation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Simulation des Frauchiger-Renner-Gedankenexperiments</h1>
+        <button id="resetBtn">Simulation zurücksetzen</button>
+    </header>
+    
+    <div class="container">
+        <!-- Hauptbereich -->
+        <main id="mainPanel">
+            <h2 id="phaseTitle">Phase 1: Vorbereitung</h2>
+            <div id="narrative" class="narrative"></div>
+            
+            <div id="inputArea" class="input-area">
+                <!-- Dynamisch per JS gefüllt -->
+            </div>
+            
+            <button id="actionBtn" class="primary">Messung durchführen</button>
+            <button id="nextBtn" class="secondary" disabled>Weiter zur nächsten Phase</button>
+        </main>
+        
+        <!-- Rechte Sidebar: immer sichtbar -->
+        <aside id="statusPanel" class="status">
+            <h2>Aktueller Stand</h2>
+            <div id="statusContent">
+                <!-- Wird per JS aktualisiert -->
+            </div>
+        </aside>
+    </div>
+    
+    <footer>
+        <p>Interaktive Nachbildung des Frauchiger-Renner-Paradoxons (2018). Quellen: Nature Communications &amp; Originalpapier.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
