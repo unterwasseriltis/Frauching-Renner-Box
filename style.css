@@ -171,3 +171,16 @@ footer {
     color: #a0c8ff;
     z-index: 100;
 }
+/* Phasenbeschreibung – GANZ UNTEN unter den Buttons, fixiert am unteren Rand */
+.phase-description {
+    background: rgba(25, 55, 110, 0.92);
+    backdrop-filter: blur(14px);
+    color: #c0e8ff;
+    padding: 1.6rem 2.2rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    font-size: 1.24rem;
+    line-height: 1.65;
+    box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.4);
+    flex-shrink: 0;
+    z-index: 25;
+}
